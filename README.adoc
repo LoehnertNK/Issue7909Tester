@@ -1,0 +1,17 @@
+= Issue7909Tester
+
+This is a TwinCAT ADS Notification Tester:
+
+Configure the TwinCAT ADS Notification Tester in _config.yml_.
+
+[source,yml]
+----
+AmsNetID: 5.109.8.5.1.1
+Port: 27905
+UnderSampling: 1000
+Variable:
+  Name: "Term2.Ch1 Sample 0"
+  Size: 200
+----
+
+UnderSampling minimizes the output, 1000 means only every 1000th sample is processed.

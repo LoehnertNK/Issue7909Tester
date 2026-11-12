@@ -1,0 +1,6 @@
+﻿AmsNetID: 5.109.8.5.1.1
+Port: 27905
+UnderSampling: 1000
+Variable:
+  Name: "Term2.Ch1 Sample 0"
+  Size: 200
