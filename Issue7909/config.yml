@@ -4,3 +4,4 @@ UnderSampling: 1000
 Variable:
   Name: "Term2.Ch1 Sample 0"
   Size: 200
+  AccessType: IndexGroupIndexOffset # Name or IndexGroupIndexOffset

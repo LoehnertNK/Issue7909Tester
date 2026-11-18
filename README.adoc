@@ -12,6 +12,7 @@ UnderSampling: 1000
 Variable:
   Name: "Term2.Ch1 Sample 0"
   Size: 200
+  AccessType: IndexGroupIndexOffset # Name or IndexGroupIndexOffset
 ----
 
 UnderSampling minimizes the output, 1000 means only every 1000th sample is processed.

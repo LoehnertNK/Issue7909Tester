@@ -16,5 +16,13 @@
         public string Name { get; set; }
 
         public int Size { get; set; } = 1;
+
+        public AccessType AccessType { get; set; } = AccessType.Name;
+    }
+
+    internal enum AccessType
+    {
+        IndexGroupIndexOffset,
+        Name,
     }
 }
